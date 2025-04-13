@@ -1,0 +1,16 @@
+# Git Fetch vs Git Pull
+
+1. git fetch:
+- Downloads commits, files, and refs from a remote repository into your local repo.
+- Does NOT automatically merge them into your working files.
+Example:
+git fetch origin
+
+2. git pull:
+- Does everything fetch does, PLUS automatically merges the changes into your current branch.
+Example:
+git pull origin main
+
+# Summary:
+- git fetch = safe, preview changes before merging.
+- git pull = direct merge with remote changes.
